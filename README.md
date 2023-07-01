@@ -1,4 +1,4 @@
-# Como-criar-Sistema-de-Admin  
+# Como-criar-Sistema-de-Admin  COPIA E COLA NO PAWNO
 
 #include <a_samp>
 #include <zcmd>
@@ -10,12 +10,13 @@ enum PInfo
 {
 	Admin
 };
-new Player[MAX_PLAYERS][PInfo];
-new CarroAdmin;
-new bool:Trabalhando[MAX_PLAYERS];
+new Player[MAX_PLAYERS][PInfo];//topo da gm
+new CarroAdmin; //Topo da gm
+new bool:Trabalhando[MAX_PLAYERS]; //Topo da gm
 
 
 /*====STOCKS====/
+
 //Salvamento
 stock CarregarPlayer(playerid)
 {
